@@ -1,0 +1,370 @@
+.logo {
+    font-size: 24px;
+    font-weight: 500;
+    background: -webkit-linear-gradient(#01122f, #aec2e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* banar ================================================ */
+.banar-container {
+    height: 50vh;
+    /* width: 100%; */
+    background-image: url(../asset/bg-sv.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.banar-devider {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+}
+
+.banar-text {
+    margin-top: 70px;
+}
+
+.banar-text h1 {
+    color: #253858;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.banar-text h4 {
+    color: #253858;
+}
+
+.banar-text h6 {
+    color: #253858;
+    line-height: 50px;
+}
+
+.banar-text ul li {
+    list-style: none;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+/* banar login section */
+.banar-login {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banar-logcard {
+    width: 50%;
+    background-color: #E9F1F3;
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+.banar-logcard button {
+    width: 100%;
+    outline: none;
+    border: none;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 10px 0;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    border-radius: 10px;
+}
+
+.banar-logcard button:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/* project menagmant systime */
+.project-btn {
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 25px;
+    margin: 0 5px;
+    border: none;
+    font-weight: 500;
+    background-color: #eeeeee00;
+    text-decoration: none;
+    color: #253858c6;
+}
+
+.agile-dropdown {
+    /* background-color: #58DBCF; */
+
+}
+
+.agile-dropdown button {
+    width: 100%;
+    border-radius: 25px;
+    background-color: #E9F1F3;
+    color: #253858;
+}
+
+.agile-dropdown button:active,
+.agile-dropdown button:hover {
+    background-color: #58DBCF;
+}
+
+.project-btn:active,
+.project-btn:hover {
+    background-color: #CBE0DD;
+    color: #253858;
+}
+
+/* hero section */
+.hero-one {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.heroimg-one {
+    padding: 10px;
+}
+
+.hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #253858;
+}
+
+.hero-text h1 {
+    font-weight: 700;
+}
+
+.hero-text p {
+    font-weight: 500;
+}
+
+.hero-text hr {
+    color: #02655b;
+    border: 1px solid #02655b;
+
+}
+
+/* get start */
+.get-start {
+    height: 350px;
+    background-color: #C0FFF9;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='784' height='784' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23DBDBDB' stroke-width='2.8'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%2358DBCF'%3E%3Ccircle cx='769' cy='229' r='14'/%3E%3Ccircle cx='539' cy='269' r='14'/%3E%3Ccircle cx='603' cy='493' r='14'/%3E%3Ccircle cx='731' cy='737' r='14'/%3E%3Ccircle cx='520' cy='660' r='14'/%3E%3Ccircle cx='309' cy='538' r='14'/%3E%3Ccircle cx='295' cy='764' r='14'/%3E%3Ccircle cx='40' cy='599' r='14'/%3E%3Ccircle cx='102' cy='382' r='14'/%3E%3Ccircle cx='127' cy='80' r='14'/%3E%3Ccircle cx='370' cy='105' r='14'/%3E%3Ccircle cx='578' cy='42' r='14'/%3E%3Ccircle cx='237' cy='261' r='14'/%3E%3Ccircle cx='390' cy='382' r='14'/%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #253858;
+}
+
+.get-start h1 {
+    font-weight: 700;
+}
+
+.get-start button {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.get-start button:hover {
+    background-color: #eeeeee00;
+    color: #253858;
+    outline: #253858;
+    border: 1px solid #253858;
+}
+
+/* footer secton */
+.es-footer {
+    color: #253858;
+}
+
+.footer-icon a {
+    color: #58DBCF;
+    font-size: 25px;
+}
+
+
+
+/* rasponsivnas */
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 400px) {
+    .banar-devider {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+
+    .banar-container {
+        height: 150vh;
+    }
+
+    .banar-logcard {
+        width: 100%;
+        background-color: #E9F1F3;
+        text-align: center;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+
+    .hero-one {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+}
+@media only screen and (min-width: 400px) {
+    .banar-devider {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+
+    .banar-container {
+        height: 100vh;
+    }
+
+    .banar-logcard {
+        width: 100%;
+        background-color: #E9F1F3;
+        text-align: center;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+
+    .hero-one {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .banar-devider {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+
+    .banar-container {
+        height: 205vh;
+    }
+
+    .banar-logcard {
+        width: 100%;
+        background-color: #E9F1F3;
+        text-align: center;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+
+    .hero-one {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+}
+@media only screen and (min-width: 599px) {
+    .banar-devider {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+
+    .banar-container {
+        height: 150vh;
+    }
+
+    .banar-logcard {
+        width: 100%;
+        background-color: #E9F1F3;
+        text-align: center;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+
+    .hero-one {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banar-devider {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+
+    .banar-container {
+        height: 245vh;
+    }
+
+    .banar-logcard {
+        width: 100%;
+        background-color: #E9F1F3;
+        text-align: center;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 700px) {
+    .banar-devider {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+
+    .banar-container {
+        height: 110vh;
+    }
+
+    .banar-logcard {
+        width: 100%;
+        background-color: #E9F1F3;
+        text-align: center;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .banar-devider {
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+    }
+    .banar-container {
+        height: 70vh;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .banar-container {
+        height: 70vh;
+    }
+
+    .banar-devider {
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .banar-devider {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+    }
+
+    .banar-container {
+        height: 50vh;
+    }
+
+    .banar-logcard {
+        width: 60%;
+        background-color: #E9F1F3;
+        text-align: center;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+
+    .hero-one {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+    }
+}

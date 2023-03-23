@@ -1,0 +1,103 @@
+.y-scrol {
+    max-height: 74vh;
+    overflow-y: scroll;
+}
+
+.y-scrol::-webkit-scrollbar {
+    width: 8px;
+}
+
+.y-scrol::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: -webkit-linear-gradient(#4b64c7, #E9B44C);
+
+}
+
+.y-scrol::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: -webkit-linear-gradient(#E9B44C, #4b64c7);
+
+}
+
+.x-scrol {
+    width: 80vw;
+    height: 85vh;
+    max-width: 1700px;
+    overflow-x: scroll;
+}
+
+.x-scrol::-webkit-scrollbar {
+    height: 12px;
+}
+
+.x-scrol::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: -webkit-linear-gradient(45deg, #4b64c7, #E9B44C);
+}
+
+.x-scrol::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: -webkit-linear-gradient(45deg, #E9B44C, #4b64c7);
+}
+
+#addlist {
+    background-color: #3d51e7;
+    padding: 15px;
+    font-weight: 500;
+    color: #eee;
+    width: 120px;
+}
+
+/* List title */
+#addlist-title {
+    background-color: #94A89A;
+    padding: 15px;
+    font-weight: 500;
+    color: #eee;
+    height: 130px;
+
+}
+
+#addlist:hover {
+    background-color: #1c1b1b2d;
+    color: black;
+}
+
+/* right container */
+#frist-contai {
+    background-color: #eee;
+    /* display: none; */
+
+
+}
+
+/* boards title */
+.ti-text {
+    background-color: rgba(0, 0, 0, 0.68);
+    padding: 0 20px;
+    color: #eee;
+}
+
+.bg-color {
+    background-color: #22282C;
+}
+
+/* todos helf round icon */
+.soport .header-icon {
+    /* background-color: rgb(210,16,16); */
+    border-radius: 25px 0 0 25px;
+    padding: 0 9px;
+    margin-right: 5px;
+}
+
+.soport:nth-child(1) .header-icon {
+    background-color: rgb(210, 16, 16);
+}
+
+.soport:nth-child(2) .header-icon {
+    background-color: rgb(0, 181, 255);
+}
+
+.soport:nth-child(3) .header-icon {
+    background-color: rgb(255, 231, 0);
+}
